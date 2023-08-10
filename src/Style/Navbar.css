@@ -1,0 +1,57 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+  nav {
+    position: fixed;
+    width: 30%;
+    margin: auto;
+    background-color:rgba(255, 250, 240, 0.077);
+    padding: 10px 0;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    top: 30px; 
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+  }
+  
+  nav ul {
+    font-family:'figtree';
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .App-header {
+    margin-top: 80px;
+    padding: 20px;
+    color: white;
+  }
+  
+  /* Membuat navbar responsif */
+  @media screen and (max-width: 768px) {
+    nav {
+      width: 80%; /* Atur ukuran sesuai kebutuhan Anda */
+    }
+    
+    .App-header {
+      margin-top: 120px; /* Sesuaikan margin atas untuk konten responsif */
+    }
+  }
+  

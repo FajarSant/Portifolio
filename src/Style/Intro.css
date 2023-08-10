@@ -1,0 +1,57 @@
+/* Intro.css */
+
+/* Gaya untuk komponen "Intro" */
+.intro {
+  padding: 150px ;
+  text-align: center;
+}
+
+.intro-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.intro h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 46px;
+  color: #333;
+  font-weight: bold;
+}
+
+.intro p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #777;
+}
+
+.intro p span {
+  font-weight: bold;
+}
+
+/* Gaya untuk komponen "social-media" */
+.social-media {
+  margin-top: 30px;
+}
+
+.social-media a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #777;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.social-media a:hover {
+  color: #d90606;
+  transform: scale(1.1); 
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-media a:last-child {
+  margin-right: 0;
+}
+
+.social-media svg {
+  width: 50px;
+  height: 30px;
+}

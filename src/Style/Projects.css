@@ -1,0 +1,93 @@
+/* Projects Section */
+/* Section Styles */
+.text-center {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.section-subtitle {
+  font-size: 46px;
+  text-decoration: underline;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: bold;
+}
+
+.section-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Service Cards */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-card {
+  position: relative;
+  border-radius: 10px;
+  padding: 20px;
+  left: 100px;
+  height: 400px;
+  width: 260px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  background-color: #b8e3e3;
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: #000000;
+}
+.section-subtitle .p{
+  color: rgb(0, 0, 0);
+}
+
+
+
+
+.icon {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  transition: transform 0.3s, opacity 0.3s;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgb(0, 0, 2);
+}
+
+.service-card:hover .icon {
+  transform: translateY(-20px) scale(0.8);
+  opacity: 0.8;
+}
+
+.title {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.service-card:hover .title {
+  opacity: 1;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #000000;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.service-card:hover .subtitle {
+  opacity: 1;
+}

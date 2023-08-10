@@ -1,0 +1,6 @@
+.myBG {
+    height: auto;
+    padding: 20px;
+    background: linear-gradient(to bottom,  #b3d9ff,#ffffff);
+    position: relative;
+}

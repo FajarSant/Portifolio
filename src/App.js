@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Intro from './components/Intro';
+import NavigationBar from './components/NavigationBar';
+import About from './components/About';
+import "./Style/LandingPage.css"
+import Projects from './components/Projects'
+import Pendidikan from './components/Pendidikan';
+import TentangSaya from './components/Tentang';
+import MySkill from './components/Skill';
+import Review from './components/Review';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className='myBG'>
+      <NavigationBar/>
+      <Intro />
+      <About/>
+      <Projects/>
+      <MySkill/>
+      <Review/>
+      </div>
   );
 }
-
-export default App;
+export default App
