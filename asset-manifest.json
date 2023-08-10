@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FajarSant/Portifolio/static/css/main.26d1f896.css",
-    "main.js": "/FajarSant/Portifolio/static/js/main.ed75f220.js",
+    "main.js": "/FajarSant/Portifolio/static/js/main.c80489ec.js",
     "static/js/787.af719217.chunk.js": "/FajarSant/Portifolio/static/js/787.af719217.chunk.js",
     "static/media/2.jpg": "/FajarSant/Portifolio/static/media/2.ff63522436daac87e27d.jpg",
     "static/media/3.jpg": "/FajarSant/Portifolio/static/media/3.37293c902b2717fb6091.jpg",
@@ -13,11 +13,11 @@
     "static/media/slick.woff": "/FajarSant/Portifolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/FajarSant/Portifolio/index.html",
     "main.26d1f896.css.map": "/FajarSant/Portifolio/static/css/main.26d1f896.css.map",
-    "main.ed75f220.js.map": "/FajarSant/Portifolio/static/js/main.ed75f220.js.map",
+    "main.c80489ec.js.map": "/FajarSant/Portifolio/static/js/main.c80489ec.js.map",
     "787.af719217.chunk.js.map": "/FajarSant/Portifolio/static/js/787.af719217.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26d1f896.css",
-    "static/js/main.ed75f220.js"
+    "static/js/main.c80489ec.js"
   ]
 }
