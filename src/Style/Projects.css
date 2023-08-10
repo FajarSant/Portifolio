@@ -91,3 +91,55 @@
 .service-card:hover .subtitle {
   opacity: 1;
 }
+/* Projects.css */
+
+/* ... kode CSS sebelumnya ... */
+
+/* Media query for mobile devices */
+/* Projects.css */
+
+/* ... kode CSS sebelumnya ... */
+
+/* Media query for mobile devices */
+/* Projects.css */
+
+/* ... kode CSS sebelumnya ... */
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .service-card {
+    margin-bottom: 20px;
+    display: contents;
+    justify-content: center; /* Pusatkan secara horizontal */
+    align-items: center; /* Pusatkan secara vertikal */
+  }
+
+  .service-card .body {
+    padding: 20px;
+    text-align: center; /* Pusatkan teks pada handphone */
+  }
+
+  .service-card .icon {
+    max-width: 60px;
+    margin-bottom: 10px; /* Berikan ruang di bawah ikon */
+  }
+
+  .service-card .title {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .service-card .subtitle {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  .icon {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    transition: transform 0.3s, opacity 0.3s;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgb(0, 0, 2);
+  }
+}

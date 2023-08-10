@@ -17,6 +17,8 @@ function App() {
       <Projects/>
       <MySkill/>
       <Review/>
+      <TentangSaya/>
+      <Pendidikan/>
       </div>
   );
 }

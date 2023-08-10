@@ -3,7 +3,6 @@ import'../Style/Projects.css';
 import Gambar1 from './Img/1.jpg'
 import Gambar2 from './Img/2.jpg'
 import Gambar3 from './Img/3.jpg'
-import Gambar4 from './Img/4.jpg'
 
 const ServiceCard = ({ iconSrc, title, subtitle }) => (
   <div className="col-md-6 col-lg-4">

@@ -53,9 +53,13 @@
   .about-text {
     order: 2; /* Mengubah urutan tampilan teks */
   }
+  .about-text h3{
+    text-align: center;
+  }
 
   .about-image {
     order: 1; /* Mengubah urutan tampilan gambar */
     margin-bottom: 0; /* Hilangkan spasi antara gambar dan teks */
+
   }
 }

@@ -4,7 +4,6 @@ import {
   FaGithub,
   FaLinkedin,
   FaEnvelope,
-  FaWhatsapp,
 } from 'react-icons/fa';
 
 const Intro = () => {

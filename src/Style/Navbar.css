@@ -44,14 +44,3 @@
     color: white;
   }
   
-  /* Membuat navbar responsif */
-  @media screen and (max-width: 768px) {
-    nav {
-      width: 80%; /* Atur ukuran sesuai kebutuhan Anda */
-    }
-    
-    .App-header {
-      margin-top: 120px; /* Sesuaikan margin atas untuk konten responsif */
-    }
-  }
-  
