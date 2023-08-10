@@ -120,7 +120,7 @@
   }
 
   .service-card .icon {
-    max-width: 60px;
+    max-width: 200px;
     margin-bottom: 10px; /* Berikan ruang di bawah ikon */
   }
 
@@ -135,8 +135,8 @@
   }
 
   .icon {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
     transition: transform 0.3s, opacity 0.3s;
     border-radius: 10px;
